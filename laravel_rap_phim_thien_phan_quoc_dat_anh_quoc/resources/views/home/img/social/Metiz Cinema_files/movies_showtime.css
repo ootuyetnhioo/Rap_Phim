@@ -1,0 +1,651 @@
+body.modal-open {
+  height: 100%;
+  /*position: fixed;*/
+
+}
+.fixIOSposition{
+    position: fixed;
+}
+
+#confirm-user-information { 
+    top:0;
+  height: inherit; 
+  min-height: 100%; 
+}
+
+.modal { 
+  min-height: 100%; 
+  -webkit-overflow-scrolling: auto;
+}
+#modal-movie-showtimes #update_form,
+#modal-movie-showtimes #update_form label,
+#modal-movie-showtimes #member_form,
+#modal-movie-showtimes #member_form label,
+#modal-movie-showtimes #guest_form,
+#modal-movie-showtimes #guest_form label,
+#guest .guest-policy, #guest .agree_term{
+    font-family: "Montserrat-Light", sans-serif;
+}
+#guest .guest-policy{
+    border: 1px solid #c9c2b5;
+}
+#modal-movie-showtimes .col-xs-8 h3{
+    color: black;
+    margin-left: 40px;
+}
+#modal-movie-showtimes .list-item li {
+    display: inline-block;
+    padding: 0px 1px;
+}
+/* popup background dont scroll in desktop*/
+.modal-open {    
+    overflow: scroll;
+}
+
+.hide-area{
+    display:none;
+}
+#modal-movie-showtimes .modal-dialog{
+    width: 500px;
+    margin: 0 auto;
+}
+#modal-movie-showtimes .modal-content{
+    width:100%;
+}
+#modal-movie-showtimes .mfp-close{
+    opacity: 1;
+    z-index:0;
+}
+#modal-movie-showtimes .city{
+    margin-top: 15px;
+}
+#modal-movie-showtimes .list-item a{
+    padding: 10px 37px;
+    color: #48494c;
+}
+#modal-movie-showtimes .list-item{
+    margin: 20px 0px;
+}
+#modal-movie-showtimes .list-item a:hover{
+    transition: color 0.5s linear;
+    background-color: #282425;
+    color: #ffffff;
+    text-decoration: none;
+}
+#modal-movie-showtimes .list-item li.active a{
+    background: url('../images/bullet03.gif') no-repeat 20px;
+    background-color: #ff5400;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 19px;
+    font-family: "SairaSemiCondensed-Medium";
+}
+#modal-movie-showtimes .list-cinema{
+    margin-bottom: 15px;
+}
+#modal-movie-showtimes .list-cinema ul{
+}
+#modal-movie-showtimes .list-cinema li{
+    padding:0px 3px;
+}
+
+#modal-movie-showtimes .list-cinema a{
+    color: #48494c;
+    padding: 10px 30px;
+    background: #f3f2f5;
+    border-radius: 0px;
+    font-size: 19px;
+    font-family: "SairaSemiCondensed-Medium";
+}
+
+#modal-movie-showtimes .list-cinema a:hover{
+    text-decoration: none;
+    background-color: #ffffff;
+    border-color: #000000;
+}
+#modal-movie-showtimes .list-cinema.active ul li a:focus{
+    background: url('../images/bg_ckth.png') no-repeat 10px;
+    text-decoration: none;
+    background-color: #ffffff;
+    border-color: #000000;
+    outline: none;
+    box-shadow:none;
+}
+#modal-movie-showtimes .list-cinema.active ul li a.active{
+    background: url('../images/bg_ckth.png') no-repeat 10px;
+    text-decoration: none;
+    background-color: #ffffff;
+    border-color: #000000;
+    outline: none;
+    box-shadow:none;
+
+}
+#modal-movie-showtimes .empty-schedule{
+    text-align: center;
+    font-size: 23px;
+    margin: 30px 0px 50px 0px;
+    line-height: 1.5;
+}
+#modal-movie-showtimes .form-control{
+    box-shadow: none;
+    text-shadow: none;
+}
+
+#modal-movie-showtimes .modal.in .modal-dialog,
+#modal-movie-showtimes .modal.fade .modal-dialog {
+    -webkit-transform: inherit ;
+    -moz-transform: inherit ;
+    -o-transform: inherit ;
+    transform: inherit ;
+}
+#modal-movie-showtimes input[type=number]::-webkit-inner-spin-button, 
+#modal-movie-showtimes input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+#modal-movie-showtimes input[type=number] {
+    -moz-appearance: textfield;
+}
+#modal-movie-showtimes #btn-skip{
+    display:none;
+}
+.white-popup {
+  position: relative;
+  background: #FFF;
+  width: 92%;
+  max-width: 1310px;
+  margin: 50px auto;
+}
+.slick-prev:before {
+    content: '';
+    visibility: hidden;
+}
+.slick-next:before {
+     content: '';
+     visibility: hidden;
+}
+.slick-prev img{
+    padding-left: 20px;
+    padding-top: 18px;
+}
+.slick-next img{
+    padding-top: 18px;
+}
+.section-lightpink .row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.div-login {
+    width: 100%;
+    text-align: left;
+}
+.div-login .top {
+    background: #fff;
+    color: #ff5400;
+    padding: 25px 15px;
+    border-bottom: 1px solid #ff5400;
+    width: 100%;
+    height: auto;
+    line-height: 20px;
+    font-size: 24px;
+    font-family: "SairaSemiCondensed-Medium";
+    
+}
+.popup-booking .toggle-tabs{
+    border-bottom: 2px solid #2b2b2b;
+    border-top: 2px solid #2b2b2b;
+    display: inline-block;
+    margin-bottom: 30px;
+    padding: 20px;
+    width: 100%;
+}
+.popup-booking .title{
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: black;
+    padding-left: 15px;
+}
+.popup-booking .movie-time-line-box {
+    padding-bottom: 30px;
+}
+.popup-booking .movie-time-line-box .movie-name {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: black;
+}
+.popup-booking .movie-time-line-box .movie-name.highlight {
+    color: #f55404;
+}
+/* slide */
+.section-lightpink {
+    background-color: #F9F6EC;
+    padding: 40px 0px;
+}
+.days-movie-showing{
+    float:none;
+}
+.calendar-popup .days-movie-showing li {
+    margin: 0 10px;
+    position: relative;
+    padding-top: 16px;
+    width: 82px;
+    cursor: pointer;
+    display: inline-block;
+    float: none;
+}
+#modal-movie-showtimes .month{
+    text-align:center;
+}
+#modal-movie-showtimes .hide-month{
+    display:none;
+}
+#modal-movie-showtimes .month strong{
+    font-weight: bold;
+    font-size: 22px;
+}
+#modal-movie-showtimes .dayofweek{
+    margin-top: 12px;
+    font-size: 18px;
+}
+.calendar-popup .days-movie-showing li .month > strong {
+    font-weight: bold;
+    font-size: 30px;
+    padding-bottom: 0px;
+    font-family: 'SairaSemiCondensed-Medium';
+}
+.calendar-popup .days-movie-showing li .badge {
+    background-color: transparent;
+    color: #C2BDBD;
+    font-size: 14px;
+    padding: 10px 12px;
+}
+#play-date-slider{
+    
+}
+.calendar-popup .days-movie-showing {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    float: right;
+}
+.lot-table {
+    padding-left: 15px;
+    margin-top: 15px;
+}
+.theater_time {
+    overflow: hidden;
+    width: 100%;
+    margin-left: 0;
+}
+.theater_time > li.sold-out {
+    background-color: #ffffff;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.theater_time > li {
+    float: left;
+    width: 115px;
+    margin: 10px 0 0;
+    background: #fff;
+    border: 1px solid #ebeaea;
+    text-align: center;
+    margin-right: -1px;
+    padding-left: 0;
+    padding-right: 0;
+    color: #666;
+    cursor: pointer;
+    position: relative;
+    font-family: 'SairaSemiCondensed-Medium';
+}
+
+.theater_time > li a {
+    display: block;
+    color: #000;
+}
+
+.theater_time > li .time {
+    display: block;
+    height: 38px;
+    line-height: 38px;
+    border-bottom: 1px solid #e5e5e5;
+    font-size: 18px;
+}
+.theater_time > li .ppnum {
+    display: block;
+    height: 19px;
+    line-height: 19px;
+    font-size: 14px;
+    font-family: 'SairaSemiCondensed-Regular';
+}
+.toggle-tabs li:hover .days-movie-showing{
+    border: 2px solid #000000;
+}
+.current .days-movie-showing{
+    border: 2px solid #000000;
+}
+/*.time .time-end{
+    display:none;
+}*/
+.list-inline a {
+    text-decoration: none;
+    transition: color 300ms linear;
+}
+.list-inline li:hover a{
+    background-color: #ff5400;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+}
+/*.list-inline li:hover .time-end{
+    display: inline;
+}*/
+.list-inline li:hover .time{
+    border-color: #ff5400;
+    font-size: 16px;
+}
+/* change background for schedule firm on mobile */
+.list-inline li .mobile-schedule{
+    background-color: #ff5400;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+}
+.list-inline li .mobile-schedule .time-end{
+    display: inline;
+}
+.list-inline li .mobile-schedule .time{
+    border-color: #ff5400;
+    font-size: 16px;
+}
+/* .list-inline li:hover .time{
+    display: none;
+} */
+.days-movie-showing li.available .badge {
+    color: #3e3e3e;
+    cursor: pointer;
+    font-size: 16px;
+    height: 36px;
+    width: 39px;
+}
+.days-movie-showing li.active-date .badge {
+    background-color: #ff5400;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 50%;
+    padding: 10px 11px;
+    font-size: 16px;
+    height: 36px;
+    width: 39px;
+}
+.active-date{
+    visibility: visible;
+}
+.movieslide{
+    display: none;
+}
+.slick-slide, .slick-slide *{ 
+    outline: none !important;
+}
+#warning .modal-header, #profile .modal-header{
+    border-bottom-color: #ff4000;
+}
+
+.warning-footer{
+    text-align: center;
+    border: 0px;
+}
+.warning-footer .btn{
+    text-transform: uppercase;
+}
+#confirm-user-information .modal-header{
+    border-bottom:none;
+}
+#confirm-user-information .tab-header{
+    width: 100%;
+}
+#confirm-user-information .tab-header li a{
+    color: #ffffff;
+    background: #7e8eaa;
+    text-transform: uppercase;
+    padding: 8px;
+}
+#confirm-user-information .tab-header li a:hover{
+    border-color: transparent;
+}
+#confirm-user-information .tab-header li.active a{
+    background: #ff4900;
+    color: #ffffff;
+    padding: 8px;  
+}
+li.btn-guest-wth117 {
+    width: 112px;
+    text-align: center;
+}
+#confirm-user-information .tab-header li a:focus{
+    background: #ff4900;
+    color: #ffffff;
+}
+.form-error{
+    color: red;
+    margin-top: 7px;
+}
+#modal-movie-showtimes button{
+    font-family: 'SairaSemiCondensed-Medium';
+}
+#warning .modal-body p{
+    color: black;
+    font-family: 'Montserrat-Medium';
+}
+#confirm-user-information .tab-header a{
+    font-family: 'Montserrat-Medium';
+}
+.warning-footer button{
+    font-size: 18px;
+}
+.modal > * {
+    font-weight: 500;
+    font-size: 15px;
+    box-shadow: none;
+    text-shadow: none;
+}
+#modal-movie-showtimes .modal .form-control{
+    font-size: 15px;
+}
+.modal label{
+    font-weight: 500;
+    font-size: 15px;
+    color: #000000;
+}
+.modal label.form-error,.modal label.error{
+    font-weight: 500;
+    font-family: "Montserrat-Light", sans-serif;
+    font-size: 13px;
+    color:red;
+}
+.modal .btn-login{
+    font-size: 14px;
+}
+.modal .checkbox-term{
+    margin-top: 7px;
+}
+.modal .checkbox-term label{
+    font-size: 15px;
+    font-weight: 500;
+}
+#member #error{
+    color: red;
+    margin-bottom: 10px;
+}
+#confirm-user-information .country-code{
+    color: #555;
+    position: absolute;
+    top: 30px;
+    left: 5px;
+    padding-right: 4px;
+    border-right: 1px solid #cccccc
+}
+#confirm-user-information #phone{
+    padding-left: 40px;
+}
+#confirm-user-information .form-phone{
+    position: relative;
+}
+.modal .modal-dialog button.close{
+    opacity: 1;
+    color: #5d5b5b;
+}
+
+.modal form button {
+    text-transform: uppercase;
+}
+#warning .btn-login, #confirm-user-information .btn-login, 
+#alert_allow_booking .btn-login{
+    background-color: #7e8eaa;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: 'SairaSemiCondensed-Medium';
+} 
+#confirm-user-information .btn-login:hover,
+#alert_allow_booking .btn-login:hover{
+    background-color: #ff4900;
+    color: #ffffff;
+}
+#warning .btn-login:hover{
+    background-color: #ff4900;
+    color: #ffffff;
+}
+#confirm-user-information .nav-tabs{
+    border: none;
+}
+#confirm-user-information label, input{
+    font-family: "Montserrat-Light", sans-serif;
+}
+
+/* Allow booking */
+#alert_allow_booking .modal-header{
+    border-bottom: 1px solid #ff5400;
+}
+
+.poster_content {
+    padding: 10px 0px 0px 0px;
+    height: 176px;
+}
+.no_padding {
+    padding: 0px;
+}
+.poster_content img {
+    max-width: 100%;
+}
+@media only screen and (max-width: 1024px){
+    .calendar-popup .days-movie-showing li {
+        width: 66px;
+    }
+}
+@media only screen and (min-width: 769px) and (max-width: 1024px){
+    #modal-movie-showtimes .modal-dialog{
+        width: 500px;
+    }
+       
+}
+@media only screen and (max-width: 768px){
+     #modal-movie-showtimes .modal-dialog{
+        width: 500px;
+    }
+    #myTabContent .input-group {
+        display: table;
+    }
+    .size{
+        margin-left: 16px;
+    }
+    .slick-list.draggable{
+        margin-left: 15px;
+    }
+    .calendar-popup .days-movie-showing li .badge {
+        padding: 8px;
+        width: 50%;
+    }
+    #modal-movie-showtimes .content-schedule{
+        width: auto;
+    }
+}
+@media only screen and (max-width: 767px){
+    #modal-movie-showtimes .modal-dialog {
+        width: 60%;
+    }
+
+    #modal-movie-showtimes .section-white{
+        overflow-y: scroll;
+        height: 300px;
+        
+    }
+    .section-white::-webkit-scrollbar {
+    -webkit-appearance: none;
+    }
+
+    .section-white::-webkit-scrollbar:vertical {
+        width: 12px;
+    }
+
+    .section-white::-webkit-scrollbar:horizontal {
+        height: 12px;
+    }
+
+    .section-white::-webkit-scrollbar-thumb {
+        background-color: rgba(0, 0, 0, .5);
+        border-radius: 10px;
+        border: 2px solid #ffffff;
+    }
+
+    .section-white::-webkit-scrollbar-track {
+        border-radius: 10px;  
+        background-color: #ffffff; 
+    }
+
+}
+@media only screen and (max-width: 480px){
+    #modal-movie-showtimes .modal-dialog{
+        width: 70%;
+    }
+    .size {
+        margin-left: -15px;
+    }
+    .slick-list.draggable{
+        margin-left: 31px;
+    }
+    .slick-prev img {
+        padding-left: 32px;
+        padding-top: 18px;
+    }
+    .calendar-popup .days-movie-showing li .badge {
+        padding: 8px;
+        width: 38%;
+    }
+    #confirm-user-information .modal-header{
+        padding: 0px;
+    }
+    #confirm-user-information .modal-header .tab-header li{
+        width: 110px;
+        font-size: 13px;
+    }
+    .calendar-popup .days-movie-showing li{
+        width: 87px;
+    }
+}
+@media only screen and (max-width: 414px){
+    #modal-movie-showtimes .modal-dialog {
+        width: 90%;
+    }
+    #confirm-user-information .modal-content{
+        width: 92%;
+    }
+}
+@media only screen and (max-width: 320px){
+    .calendar-popup .days-movie-showing li{
+        width: 70px;
+    }
+}

@@ -1,0 +1,18 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+main {
+    background-color: #0f1d2f;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+
